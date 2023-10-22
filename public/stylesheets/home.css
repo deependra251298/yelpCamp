@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://wallpaperaccess.com/full/1561606.jpg");
+     /* url("https://wallpaperaccess.com/full/1561533.jpg"); */
+    /* url("https://res.cloudinary.com/dwgxusgug/image/upload/v1697901241/YelpCamp/lfz1cpg4nkm2nvw69rdz.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border:2px solid red; */
+    
+    
+}
+div {
+    display: flex;
+    flex-direction: row;
+  }
+.container-1{
+    /* background-color: #212529;
+    border:2px solid #212529; */
+     width:100vw;
+     height:min-content
+  }
+
+header{
+    /* background-color:#212529; */
+    /* border:2px solid red; */
+    width:96%;
+    height:8%;
+    margin-top:2px;
+    margin-bottom:3px;
+}
+.nav-link{
+    display:block;
+    padding: 8px;
+    color:rgba(255, 255, 255, 0.55);
+    
+
+}
+.nav-link:hover{
+    color:rgba(255, 255, 255, 0.75);
+    border-bottom: 0.05rem solid rgba(255, 255, 255, 0.75);
+}
+.nav-link:active{
+    color:rgba(255, 255, 255, 0.75);
+}
+.container-2 {
+    margin-top: 35vh;
+    width:75%;
+  }
