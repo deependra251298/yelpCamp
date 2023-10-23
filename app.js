@@ -23,7 +23,7 @@ const reviewRoutes = require('./routes/reviews.js');
 const userRoutes =  require('./routes/users');
 const mongoSanitize = require('express-mongo-sanitize');
 const MongoStore = require('connect-mongo');
-const dbUrl = process.eventNames.DB_URL || 'mongodb://localhost:27017/yelp-camp';
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/yelp-camp';
 // mongoDb Database from site 
 // const dbUrl = process.eventNames.DB_URL
 
